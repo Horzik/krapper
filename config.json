@@ -1,0 +1,32 @@
+{
+    "email_settings": {
+        "EMAIL_SENDER": "corborathuber@gmail.com",
+        "EMAIL_PASSWORD": "riddimjumpup",
+        "SMTP_SERVER": "smtp.google.com",
+        "EMAIL_RECIPIENT": "corborathuber@gmail.com"
+    },
+    "search_config": {
+        "price_range": {
+            "min": 100,
+            "max": 3000
+        }
+    },
+    "selectors": {
+        "listing_item": ".listing",
+        "title": ".title",
+        "price": ".price"
+    },
+    "error_config": {
+        "base_url": "https://example.com"
+    },
+    "scrapy_settings": {
+        "DOWNLOAD_DELAY": 2,
+        "CONCURRENT_REQUESTS": 16,
+        "COOKIES_ENABLED": true,
+        "USER_AGENT": "Krapper/0 - learning purposes"  
+    },
+    "urls": [
+        "https://www.pararius.com/apartments/zevenhoven"
+        ,"https://www.pararius.com/apartments/amsterdam"
+    ]
+}

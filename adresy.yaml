@@ -1,0 +1,19 @@
+urls:
+  - url: "https://kamernet.nl/en/for-rent/apartment-haarlem?listingTypes=2&searchview=1&maxRent=0&minSize=2&radius=5&pageNo=1&sort=1"
+    selectors:
+      title: "span.MuiTypography-root.MuiTypography-subtitle1"
+      price: "span.MuiTypography-root.MuiTypography-h5"
+      listing_item: "a.ListingCard_root__e9Z81"
+      location: "d.ListingCard_listingRow__LgUM5 > span:nth-child(2)"
+  - url: "https://www.marktplaats.nl/q/spray/#distanceMeters:75000|postcode:2435"
+    selectors:
+      title: ".hz-Listing-title"
+      price: ".hz-Listing-price"
+      location: ".hz-Listing-location"
+      listing_item: ".hz-Listing"
+  - url: "https://www.pararius.com/apartments/rotterdam"
+    selectors:
+      title: ".listing-search-item__title"
+      price: ".listing-search-item__price"
+      location: ".listing-search-item__sub-title"
+      listing_item: ".listing-search-item__title"
