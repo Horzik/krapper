@@ -1,8 +1,8 @@
 {
     "email_settings": {
         "EMAIL_SENDER": "corborathuber@gmail.com",
-        "EMAIL_PASSWORD": "riddimjumpup",
-        "SMTP_SERVER": "smtp.google.com",
+        "EMAIL_PASSWORD": 
+        "SMTP_SERVER": 
         "EMAIL_RECIPIENT": "corborathuber@gmail.com"
     },
     "search_config": {
